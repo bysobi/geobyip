@@ -1,0 +1,41 @@
+<extension>
+    <id>d_geo_by_ip</id>
+    <name>Geo by ip</name>
+    <description>
+        Geo by ip
+    </description>
+    <type>module</type>
+    <version>1.0.0</version>
+    <license>lite</license>
+    <opencart_version>2.0.0.0;2.0.1.1;2.0.2.0;2.0.3.1;2.1.0.1</opencart_version>
+    <mbooth_version>3.0</mbooth_version>
+    <author>Dreamvention</author>
+    <support_email>support@dreamvention.com</support_email>
+    <files>
+        <file>system/mbooth/xml/mbooth_d_geo_by_ip.xml</file>
+
+        <file>admin/controller/module/d_geo_by_ip.php</file>
+        <file>admin/model/module/d_geo_by_ip.php</file>
+        <file>admin/language/english/module/d_geo_by_ip.php</file>
+        <file>admin/view/template/module/d_geo_by_ip.tpl</file>
+        
+        <file>catalog/controller/module/d_geo_by_ip.php</file>
+        <file>catalog/controller/d_geo_by_ip/geoservices.php</file>
+        <file>catalog/model/module/d_geo_by_ip.php</file>
+        
+        <file>system/config/d_geo_by_ip.php</file>
+        <file>system/config/d_geo_by_ip_lite.php</file>
+
+        <file>admin/view/stylesheet/d_geo_by_ip/style.css</file>
+        <file>admin/view/javascript/d_geo_by_ip/select2/select2.min.js</file>
+        <file>admin/view/stylesheet/d_geo_by_ip/select2/select2.css</file>
+        <file>admin/view/javascript/d_geo_by_ip/sweet_alert/sweetalert.min.js</file>
+        <file>admin/view/stylesheet/d_geo_by_ip/sweet_alert/sweetalert.css</file>
+    </files>
+    <required>
+        <require version="2.3.0">shopunity</require>
+    </required>
+    <updates>
+        <update version="1.0"></update>
+    </updates>
+</extension>
